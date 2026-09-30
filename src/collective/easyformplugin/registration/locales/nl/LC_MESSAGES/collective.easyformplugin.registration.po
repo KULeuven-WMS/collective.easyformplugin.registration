@@ -1,0 +1,212 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2026-09-30 12:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: nl\n"
+"Language-Name: Dutch\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.easyformplugin.registration\n"
+
+#: collective/easyformplugin/registration/configure.zcml:51
+msgid "Adds the ability to use an EasyForm content as registration form."
+msgstr "Voegt de optie toe om een Easyform formulier te gebruiken als inschrijvingsformulier"
+
+#: collective/easyformplugin/registration/configure.zcml:21
+msgid "Collective Easyform: Registration plugin"
+msgstr ""
+
+#: collective/easyformplugin/registration/configure.zcml:29
+msgid "Collective Easyform: Registration plugin (uninstall)"
+msgstr ""
+
+#: collective/easyformplugin/registration/profiles/default/actions.xml
+msgid "Contact registrants"
+msgstr "Contacteer geregistreerden"
+
+#: collective/easyformplugin/registration/configure.zcml:21
+msgid "Installs the collective.easyformplugin.registration add-on."
+msgstr ""
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:45
+msgid "List of people in waiting list that compiled email fields (could be one of these fields: email, e-mail, replyto)."
+msgstr "Lijst van personen op de wachtlijst voor wie een emailveld is ingevuld (kan gaan over de volgende vlden: email, e-mail, replyto)"
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:32
+msgid "List of registered people that compiled email fields (could be one of these fields: email, e-mail, replyto)."
+msgstr "Lijst van ingeschreven personen voor wie een emailveld is ingevuld (kan gaan over de volgende vlden: email, e-mail, replyto)"
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:28
+msgid "Message"
+msgstr "Bericht"
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:31
+msgid "Registrants"
+msgstr "Inschrijvingen"
+
+#: collective/easyformplugin/registration/behavior.py:98
+msgid "Registration"
+msgstr "Inschrijving"
+
+#: collective/easyformplugin/registration/configure.zcml:51
+msgid "Registration form"
+msgstr "Inschrijvingsformulier"
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:111
+msgid "Reset"
+msgstr ""
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:27
+msgid "Subject"
+msgstr "Onderwerp"
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:70
+msgid "Submit"
+msgstr "Verzend"
+
+#: collective/easyformplugin/registration/configure.zcml:29
+msgid "Uninstalls the collective.easyformplugin.registration add-on."
+msgstr ""
+
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:44
+msgid "Waiting list"
+msgstr "Wachtlijst"
+
+#. Default: "Available seats: ${seats}"
+#: collective/easyformplugin/registration/browser/registration_form.pt:31
+msgid "available_seats_label"
+msgstr "Beschikbare plaatsen: ${seats}"
+
+#. Default: "You need to select at least one recipient from registrants or waiting_list list."
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:80
+msgid "contact_recipients_error"
+msgstr "Er moet minstens 1 ontvanger vanuit de inschrijvingen of wachtlijst geselcteerd zijn."
+
+#. Default: "Emails sent."
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:98
+msgid "contact_recipients_sent"
+msgstr "Emails verzonden"
+
+#. Default: "Unable to send messages. Action not found in Form."
+#: collective/easyformplugin/registration/browser/contact_registrants_view.py:125
+msgid "contact_registrants_action_not_found"
+msgstr "Emails niet verzonden. Actie niet beschikbaar in formulier"
+
+#. Default: "In this page you can send a message to registrants."
+#: collective/easyformplugin/registration/browser/contact_registrants_view.pt:16
+msgid "contact_registrants_help"
+msgstr "Via deze pagina kan u een bericht sturen naar de ingescrevenen"
+
+#. Default: "Contact registrants"
+#: collective/easyformplugin/registration/browser/contact_registrants_view.pt:11
+msgid "contact_registrants_label"
+msgstr "Contacteer ingeschrevenen"
+
+#. Default: "Select if this form is a registration form. If selected, will be created a new form action (registrants) and a new hidden field (waiting_list). If one of these two defaults is missing, the registration form can't work properly."
+#: collective/easyformplugin/registration/behavior.py:30
+msgid "help_is_registration_form"
+msgstr "Vink aan indien u een inschrijvingsformulier Wenst. Indien geselecteerd, zullen er automatisch een nieuw formulier actie (inschrijvingen) en verborgen wachtlijst veld worden aangemaakt. Als een van deze 2 velden niet correct zijn ingesteld, kan het inschrijvingsformulier niet correct werken."
+
+#. Default: "Set a maximum number of attendees for this registration form. Leave empty for unlimited."
+#: collective/easyformplugin/registration/behavior.py:42
+msgid "help_max_attendees"
+msgstr "Beperk het aantal inschrijvingen voor het formulier. Laat leeg voor geen beperking."
+
+#. Default: "Allows to show in the subscription page how many seats are still available. Waiting list seats are not counted."
+#: collective/easyformplugin/registration/behavior.py:62
+msgid "help_show_seats_left"
+msgstr "Toon op het formulier hoeveel plaatsen er nog beschikbaar zijn. Plaatsen op de wachtlijst worden niet meegerekend."
+
+#. Default: "Date and Time, when the registration form closes."
+#: collective/easyformplugin/registration/behavior.py:85
+msgid "help_subscription_close_date"
+msgstr "Sluitingsmoment inschrijvingen"
+
+#. Default: "Date and Time, when the registration form opens."
+#: collective/easyformplugin/registration/behavior.py:72
+msgid "help_subscription_open_date"
+msgstr "Startmoment inschrijvingen"
+
+#. Default: "Set a number of available seats in waiting list. Leave empty for disable the waiting list."
+#: collective/easyformplugin/registration/behavior.py:52
+msgid "help_waiting_list_size"
+msgstr "Bepaal het maximum aantal plaatsen op de wachtlijst. Laat leeg om geen wachtlijst in te stellen"
+
+#. Default: "Registration form"
+#: collective/easyformplugin/registration/behavior.py:29
+msgid "label_is_registration_form"
+msgstr "Inschrijvingsformulier"
+
+#. Default: "Max attendees"
+#: collective/easyformplugin/registration/behavior.py:41
+msgid "label_max_attendees"
+msgstr "Maximum aantal deelnemers"
+
+#. Default: "Registrant Data"
+#: collective/easyformplugin/registration/actions.py:91
+msgid "label_registrant_data_action"
+msgstr "Inschrijvingsdata"
+
+#. Default: "Show seats left"
+#: collective/easyformplugin/registration/behavior.py:61
+msgid "label_show_seats_left"
+msgstr "Toon beschikbare plaatsen"
+
+#. Default: "Close date"
+#: collective/easyformplugin/registration/behavior.py:84
+msgid "label_subscription_close_date"
+msgstr "Sluit moment"
+
+#. Default: "Open date"
+#: collective/easyformplugin/registration/behavior.py:71
+msgid "label_subscription_open_date"
+msgstr "Start moment"
+
+#. Default: "Waiting list size"
+#: collective/easyformplugin/registration/behavior.py:51
+msgid "label_waiting_list_size"
+msgstr "wachtlijst omvang"
+
+#. Default: "Attendees limit reached."
+#: collective/easyformplugin/registration/browser/view.py:126
+msgid "message_attendees_limit_reached"
+msgstr "Maximum aantal inschrijvingen behaald"
+
+#. Default: "Registration ended on ${date} at ${hour}."
+#: collective/easyformplugin/registration/browser/view.py:173
+msgid "message_close_date_past"
+msgstr "Inschrijven kon tot ${date} - ${hour}."
+
+#. Default: "Registration opening on ${date} at ${hour}."
+#: collective/easyformplugin/registration/browser/view.py:160
+msgid "message_open_date_future"
+msgstr "Inschrijvingen starten op ${date} om ${hour}."
+
+#. Default: "You can subscribe anyway and enter to a waiting list. We will contact you in case some participants will cancel their subscription."
+#: collective/easyformplugin/registration/browser/view.py:110
+msgid "message_waiting_list_open"
+msgstr "U kan zich inschrijven op onze wachtlijst. We zullen contact opnemen indien eerdere inschrijven geannuleerd worden."
+
+#. Default: "Attendees limit reached."
+#: collective/easyformplugin/registration/browser/view.py:117
+msgid "message_waiting_list_open_strong"
+msgstr "Maximum aantal inschrijvingen behaald"
+
+#. Default: "You can't subscribe to this form."
+#: collective/easyformplugin/registration/browser/view.py:186
+msgid "registration_form_error"
+msgstr "U kan zich niet inschrijven via dit formulier"
+
+#. Default: "Return to form"
+#: collective/easyformplugin/registration/browser/contact_registrants_view.pt:22
+msgid "return_to_form_label"
+msgstr "terug naar formulier"
