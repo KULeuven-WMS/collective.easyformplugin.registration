@@ -65,6 +65,8 @@ def updateFieldsSchema(context):
     """
     Add waiting list field, if waiting list is set and not present.
     """
+    if not getattr(context, "is_registration_form", False):
+        return
     schema = readSchemaFromFile(FIELDS_DEFAULT_FILENAME)
     register_xml = etree.fromstring(schema)
     form_xml = etree.fromstring(context.fields_model)
